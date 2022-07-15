@@ -26,7 +26,7 @@ function buscarZapatilla(zapatillas) {
 
 //FUNCION PARA BUSCAR POR AÑO
 function ordenarAño(zapatillas) {
-    let año = parseInt(prompt("Inmgrese un año"))
+    let año = parseInt(prompt("Ingrese un año"))
     let añoZapatilla = zapatillas.filter(zapatilla => zapatilla.año >= año)
     
     if(añoZapatilla.length == 0){
